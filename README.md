@@ -1,0 +1,14 @@
+# CoinMarketCap history data API
+目的:CMCでのhistoryデータを取得する環境構築の提供
+# テスト環境の利用
+## History
+- ip:54.164.173.158
+- Endpoint: /history/{id}/
+- Method: GET
+- Example: http://54.164.173.158/history/bitcoin
+- Sample Response:
+```
+[{"rank":1,"price_usd":13477.1,"price_btc":1,"24h_volume_usd":12574900000,"market_cap_usd":226062000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":-0.43,"percent_change_24h":6.01,"percent_change_7d":1.1,"last_updated":1514735060},{"rank":1,"price_usd":13510.7,"price_btc":1,"24h_volume_usd":12592800000,"market_cap_usd":226626000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":-0.59,"percent_change_24h":6.47,"percent_change_7d":1.39,"last_updated":1514735362},{"rank":1,"price_usd":13540.4,"price_btc":1,"24h_volume_usd":12625600000,"market_cap_usd":227124000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":-0.36,"percent_change_24h":6.71,"percent_change_7d":1.64,"last_updated":1514735660},{"rank":1,"price_usd":13581,"price_btc":1,"24h_volume_usd":12697600000,"market_cap_usd":227805000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":-0.19,"percent_change_24h":7.1,"percent_change_7d":1.98,"last_updated":1514735962},{"rank":1,"price_usd":13643.6,"price_btc":1,"24h_volume_usd":12703700000,"market_cap_usd":228855000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":0.21,"percent_change_24h":7.62,"percent_change_7d":2.48,"last_updated":1514736262},{"rank":1,"price_usd":13705.7,"price_btc":1,"24h_volume_usd":12683600000,"market_cap_usd":229896000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":0.66,"percent_change_24h":8.09,"percent_change_7d":2.97,"last_updated":1514736561},{"rank":1,"price_usd":13867.2,"price_btc":1,"24h_volume_usd":12840000000,"market_cap_usd":232605000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":2.04,"percent_change_24h":9.33,"percent_change_7d":4.2,"last_updated":1514736862},{"rank":1,"price_usd":13983.5,"price_btc":1,"24h_volume_usd":13004100000,"market_cap_usd":234557000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":2.9,"percent_change_24h":10.23,"percent_change_7d":5.08,"last_updated":1514737160},{"rank":1,"price_usd":14091.9,"price_btc":1,"24h_volume_usd":13107800000,"market_cap_usd":236375000000,"available_supply":16773800,"total_supply":16773800,"max_supply":21000000,"percent_change_1h":3.93,"percent_change_24h":11.09,"percent_change_7d":5.91,"last_updated":1514737459}]
+```
+
+idには[CMC](https://coinmarketcap.com/api/)のidと同じ。

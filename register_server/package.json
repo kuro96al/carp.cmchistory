@@ -1,0 +1,15 @@
+{
+  "name": "cmc",
+  "version": "1.0.0",
+  "description": "cmc殻取得したデータを定期的にデータベースに入れる",
+  "main": "server.js",
+  "dependencies": {
+    "coinmarketcap":"0.2.0",
+    "mysql":"2.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kazuhito omachi",
+  "license": "ISC"
+}
